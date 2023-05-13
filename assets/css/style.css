@@ -3,6 +3,7 @@
     padding: 0;
     margin: 0;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: lightgray;
 }
 
 body {
@@ -62,7 +63,7 @@ nav ul {
    .about-me {
     display: flex;
     flex-wrap: wrap;
-    margin-top: 2%;
+    margin: 2px;
   } 
   
   h3 {
@@ -104,3 +105,64 @@ nav ul {
   border-style: solid;
   border-width: 3px; */
 }
+
+.work {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin: 2px;
+}
+
+.work-main {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 2px;
+  text-align: center;
+}
+
+.work-1 {
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1 1 0; 
+  width: 400px;
+  height: 200px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+}
+.secondary-work {
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+
+.work-2 {
+  flex-wrap: wrap;
+  flex: 1 1 0; 
+  width: 400px;
+  /* border-style: solid;
+  border-width: 1px;
+  border-color: black; */
+}
+
+.work-3 {
+  flex-wrap: wrap;
+  flex: 1 1 0; 
+}
+
+.work-4 {
+  flex-wrap: wrap;
+  flex: 1 1 0; 
+}
+
+.work-5 {
+  flex-wrap: wrap;
+  flex: 1 1 0; 
+}
+
+.contact-me {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 2px;
+} 
