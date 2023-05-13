@@ -2,11 +2,13 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 body {
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
   line-height: 1.3;
 }
 
@@ -17,11 +19,12 @@ header {
   padding: 1%;
   background-color: #13293d;
   color: #fff;
+  padding-right: 55px;
 }
 
 h1 {
   font-size: 200%;
-  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  /* font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
 }
 
 nav ul {
@@ -29,27 +32,25 @@ nav ul {
     justify-content: space-between;
     min-width: 300px;
     font-size: 100%;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /* font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
     color: #fff;
-  }
+   }
 
 .subtitle {
     display: flex;
-    /* text-align: right;
-    vertical-align: bottom; */
+    text-align: right;
+    vertical-align: bottom;
     height: 200px;
     /* width: 100%; */
-    margin-bottom: 25px;
     background-image: url("../images/sunset.jpg");
     background-size: 1700px 200px;
     background-repeat: no-repeat;
-    /* background-size: cover;
-    background-position: center; */
+
   }
 
   h2 {
     font-size: 250%;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /* font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
     color: whitesmoke;
     text-align: right;
     vertical-align: bottom;
@@ -57,3 +58,49 @@ nav ul {
     right: 50px;
     bottom: 500px;
   }
+
+   .about-me {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2%;
+  } 
+  
+  h3 {
+    /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+    flex-wrap: wrap;
+    font-size: 50px;
+    background-color: lightgrey;
+    text-align: right;
+    width: 200px;
+    height: 200px;
+    padding-right: 20px;
+  }
+
+.vl {
+  /* border-left: 12 solid black; */
+  border-left: 12px;
+  border-style: solid;
+  border-color: black;
+  flex-wrap: wrap;
+  flex: 1 1 0;
+  height: 200px;
+  background-color: black;
+  width: 12px;
+}
+
+  p {
+  flex-wrap: wrap;
+  flex: 1 1 0;
+  font-size: 12;
+  color: black;
+  background-color: lightgrey;
+  width: 700px;
+  height: 200px;
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  /* border-left: darkgrey;
+  border-style: solid;
+  border-width: 3px; */
+}
