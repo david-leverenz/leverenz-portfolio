@@ -7,9 +7,9 @@
 }
 
 body {
-  display: flex;
+  /* display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
+  flex-wrap: wrap; */
   line-height: 1.3;
 }
 
@@ -34,7 +34,16 @@ nav ul {
   min-width: 300px;
   font-size: 100%;
   /* font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
-  color: #fff;
+  /* color: #fff; */
+}
+
+/* nav {
+  color: white;
+} */
+
+nav a {
+  color: white;
+  text-decoration: none;
 }
 
 .subtitle {
@@ -44,18 +53,19 @@ nav ul {
   height: 200px;
   /* width: 100%; */
   background-image: url("../images/sunset.jpg");
-  background-size: 1700px 200px;
-  background-repeat: no-repeat;
+  background-size: cover;
+  /* object-fit: fill; */
+  /* background-repeat: no-repeat; */
+  background-position: center;
 
 }
 
 h2 {
-  font-size: 250%;
+  font-size: 150%;
   /* font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
   color: whitesmoke;
   text-align: right;
   vertical-align: bottom;
-  position: absolute;
   right: 50px;
   bottom: 500px;
 }
@@ -70,7 +80,6 @@ h2 {
 .left-sidebar {
   display: flex;
   flex-wrap: wrap;
-  flex: 1 0 0;
   margin: 2px;
 }
 
@@ -118,6 +127,7 @@ p {
   padding-left: 20px;
   padding-right: 10px;
   padding-bottom: 10px;
+  border-left: 3px solid blue;
   /* border-left: darkgrey;
   border-style: solid;
   border-width: 3px; */
@@ -148,10 +158,11 @@ p {
   border-color: black;
 }
 
-.secondary-work {
+.main-grid {
   display: grid;
   width: 100%;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: [first] 50px [line2] 200px;
+  grid-template-rows: 40px 200px;
 }
 
 
