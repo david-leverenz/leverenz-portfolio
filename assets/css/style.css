@@ -69,7 +69,6 @@ h2 {
 
 .right-section {
   display: block;
-  /* flex-wrap: wrap; */
   flex: 1 0 0;
   margin: 2px;  
   padding: 30px;
@@ -86,52 +85,55 @@ h3 {
   padding-right: 20px;
 }
 
-p {
-  /* display: block;
-  flex: 1 1 0;
-  font-size: 12;
-  color: black;
-  background-color: lightgrey;
-  /* width: 200px; */
-  /* height: 200px;
-  padding-top: 10px;
-  padding-left: 20px;
-  padding-right: 10px;
-  padding-bottom: 10px;
-  border-left: 3px solid blue; */ */
-  /* border-left: darkgrey;
-  border-style: solid;
-  border-width: 3px; */
-}
-
 .work {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
   margin: 2px;
-  height: auto;
+  height: 75%;
+}
+
+.work-section {
+  /* display: block; */
+  margin: 2px;  
+  padding: 30px;
+  background-color: lightgray;
+  border-left-color: #13293d;
+  border-left-width: 3px;
+  border-style: solid;
+  width: 80%;
+
 }
 
 .work-main {
   display: flex;
   flex-wrap: wrap;
+  flex-direction: row;
   border-style: solid;
   border-width: 3px;
   border-color: purple;
+  width: 100%;
+  height: 75%;
 }
 
-/* h4 {
-  display: flex;
-  flex-wrap: wrap;
-} */
-
 .work-sub {
+  display: block;
   /* flex-wrap: wrap; */
-  /* display: block; */
+  flex-grow: 2;
   flex: 1 1 0;
   border-style: solid;
-  border-width: 1px;
+  border-width: 3px;
   border-color: green;
+  width: 50%;
+  height: 75%;
+  }
+
+  h4 {
+    background-color: lightskyblue;   
+  }
+
+  h5 {
+    background-color: lightskyblue; 
   }
 
   .work-main:hover {
@@ -143,12 +145,6 @@ p {
   background-color: #772014;
   color: white;
 }
-
-/* h5 {
-  display: flex;
-  flex-wrap: wrap;
-  flex: 1 1 0;
-} */
 
 .contact-me {
   display: flex;
