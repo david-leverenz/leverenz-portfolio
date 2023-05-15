@@ -50,7 +50,7 @@ nav a {
   display: flex;
   text-align: right;
   vertical-align: bottom;
-  height: 200px;
+  height: 250px;
   /* width: 100%; */
   background-image: url("../images/sunset.jpg");
   background-size: cover;
@@ -97,12 +97,12 @@ h3 {
   font-size: 50px;
   background-color: lightgrey;
   text-align: right;
-  width: 200px;
+  /* width: 200px; */
   height: 200px;
   padding-right: 20px;
 }
 
-.vl {
+/* .vl {
   /* border-left: 12 solid black; */
   border-left: 12px;
   border-style: solid;
@@ -112,7 +112,7 @@ h3 {
   height: 200px;
   background-color: black;
   width: 12px;
-}
+} */
 
 p {
   display: flex;
@@ -121,7 +121,7 @@ p {
   font-size: 12;
   color: black;
   background-color: lightgrey;
-  width: 200px;
+  /* width: 200px; */
   height: 200px;
   padding-top: 10px;
   padding-left: 20px;
@@ -133,61 +133,39 @@ p {
   border-width: 3px; */
 }
 
-.work {
-  display: flex;
+.main-work-section {
+  display: block;
   flex-wrap: wrap;
   flex-direction: row;
   margin: 2px;
+  border-style: solid;
+  border-width: 3px;
+  border-color: black;
 }
 
-.work-main {
+.work-grid {
   display: flex;
   flex-wrap: wrap;
   margin: 2px;
   text-align: center;
+  border-style: solid;
+  border-width: 3px;
+  border-color: green;
 }
 
-.work-1 {
-  display: flex;
+.work-main {
+  border-style: solid;
+  border-width: 3px;
+  border-color: purple;
+}
+
+.work-sub {
   flex-wrap: wrap;
   flex: 1 1 0;
   width: 400px;
-  height: 200px;
   border-style: solid;
   border-width: 1px;
   border-color: black;
-}
-
-.main-grid {
-  display: grid;
-  width: 100%;
-  grid-template-columns: [first] 50px [line2] 200px;
-  grid-template-rows: 40px 200px;
-}
-
-
-.work-2 {
-  flex-wrap: wrap;
-  flex: 1 1 0;
-  width: 400px;
-  /* border-style: solid;
-  border-width: 1px;
-  border-color: black; */
-}
-
-.work-3 {
-  flex-wrap: wrap;
-  flex: 1 1 0;
-}
-
-.work-4 {
-  flex-wrap: wrap;
-  flex: 1 1 0;
-}
-
-.work-5 {
-  flex-wrap: wrap;
-  flex: 1 1 0;
 }
 
 .contact-me {
