@@ -54,8 +54,14 @@ nav a {
 h2 {
   font-size: 150%;
   color: whitesmoke;
-  text-align: right;
-  vertical-align: bottom;
+  /* text-align: right; */
+  /* vertical-align: bottom; */
+  /* position: absolute;
+  align-self: flex-end; */
+  justify-content: right;
+  /* float: right; */
+  padding: 40px;
+  /* margin:auto; */
 }
 
 .about-me {
