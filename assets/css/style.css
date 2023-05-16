@@ -116,14 +116,9 @@ h3 {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  border-style: solid;
-  border-width: 3px;
-  border-color: purple;
   width: auto;
   height: 150px;
-  /* background-image: url("../images/image-1.jpg"); */
-  /* background-size: cover;
-  background-position: center; */
+  padding: 20px;
 }
 
 .work-main img {
@@ -137,27 +132,32 @@ h3 {
   flex-grow: 2;
   flex: 1 1 0;
   width: 50%;
-  height: 75px;
+  height: 120px;
+  padding: 20px;
 }
 
 .work-sub img {
   width: 100%;
-  height: 75%;
+  height: 100%;
   object-fit: fill;
 }
 
 h4 {
   background-color: lightskyblue;
   align-content: center;
-  /* position: absolute; */
+  position: absolute;
   align-self: flex-end;
+  margin: 10px;
+  padding: 10px;
 }
 
 h5 {
   background-color: lightskyblue;
   align-content: center;
   position: absolute;
-  align-self: flex-end;
+  /* align-self: flex-end; */
+  margin: 10px;
+  padding: 10px;
 }
 
 h6 {
@@ -165,12 +165,10 @@ h6 {
 }
 
 .work-main:hover {
-  background-color: #772014;
   color: white;
 }
 
 .work-sub:hover {
-  background-color: #772014;
   color: white;
 }
 
