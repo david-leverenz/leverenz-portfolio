@@ -54,14 +54,8 @@ nav a {
 h2 {
   font-size: 150%;
   color: whitesmoke;
-  /* text-align: right; */
-  /* vertical-align: bottom; */
-  /* position: absolute;
-  align-self: flex-end; */
   justify-content: right;
-  /* float: right; */
   padding: 40px;
-  /* margin:auto; */
 }
 
 .about-me {
@@ -139,9 +133,6 @@ h3 {
 }
 
 .work-sub {
-  /* display: block; */
-  /* flex-grow: 2;
-  flex: 1 1 0; */
   position: relative;
   width: 50%;
   height: 150px;
@@ -175,16 +166,6 @@ h5 {
   padding: 10px;
 }
 
-/* h6 {
-  background-color: lightskyblue;
-  font-size: 10px;
-  margin: 10px 10px 20px 0px;
-  padding: 10px;
-  width: 110px;
-  top: 126px;
-  position: absolute
-} */
-
 .work-main a:hover {
   color: white;
 }
@@ -211,4 +192,29 @@ h5 {
   color: #13293d;
   font-size: 125%;
   text-decoration: none;
+}
+
+@media screen and (max-width: 992px) {
+  .work-secion {
+    display: inline-block;
+    width: 50%;
+  }
+
+  .contact-detail ul {
+    display: inline-block;
+    width: 50%;
+  }
+
+}
+
+@media screen and (max-width: 768px) {
+  .work-section {
+    display: inline-block;
+    width: 50%;
+  }
+
+  .contact-detail ul {
+    display: inline-block;
+    width: 50%;
+  }
 }
