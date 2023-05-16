@@ -8,6 +8,7 @@
 body {
   line-height: 1.3;
   background-color: lightgray;
+  height: auto;
 }
 
 header {
@@ -46,6 +47,10 @@ nav a {
   background-position: center;
 }
 
+.main-section {
+  height: auto;
+  }
+
 h2 {
   font-size: 150%;
   color: whitesmoke;
@@ -76,6 +81,7 @@ h2 {
   border-left-color: #13293d;
   border-left-width: 3px;
   border-style: solid;
+  /* height: auto; */
 }
 
 h3 {
@@ -90,7 +96,7 @@ h3 {
   flex-wrap: wrap;
   flex-direction: row;
   margin: 2px;
-  height: 75%;
+  height: auto;
 }
 
 .work-section {
@@ -102,6 +108,7 @@ h3 {
   border-left-width: 3px;
   border-style: solid;
   width: 80%;
+  height:25%;
   position: relative;
 }
 
@@ -113,7 +120,7 @@ h3 {
   border-width: 3px;
   border-color: purple;
   width: auto;
-  height: 25%;
+  height: 150px;
   /* background-image: url("../images/image-1.jpg"); */
   /* background-size: cover;
   background-position: center; */
@@ -127,25 +134,30 @@ h3 {
 
 .work-sub {
   display: block;
-  /* flex-wrap: wrap; */
   flex-grow: 2;
   flex: 1 1 0;
-  border-style: solid;
-  border-width: 3px;
-  border-color: green;
   width: 50%;
-  /* height: 75%; */
+  height: 75px;
+}
+
+.work-sub img {
+  width: 100%;
+  height: 75%;
+  object-fit: fill;
 }
 
 h4 {
   background-color: lightskyblue;
   align-content: center;
-  position: absolute;
+  /* position: absolute; */
   align-self: flex-end;
 }
 
 h5 {
   background-color: lightskyblue;
+  align-content: center;
+  position: absolute;
+  align-self: flex-end;
 }
 
 h6 {
