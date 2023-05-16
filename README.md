@@ -2,7 +2,23 @@
 
 I will use this website to showcase my work to potential employers.
 
+This has been resolved:  
 Please Note: When viewing the live link, one of the images does not display.  I could not figure out how to fix it prior to the assignment's due date and time.  It works when I view the html through VS Code!
+
+This is how I resolved it in my CSS:  
+.subtitle {  
+  display: flex;  
+  text-align: right;  
+  vertical-align: bottom;  
+  height: 250px;  
+  ### //Picture displays in live link and not VS Code  
+  background-image: url("./assets/images/sunset2.jpg");  
+  
+  ### //Picture displays in VS Code and not live link  
+  background-image: url("../images/sunset2.jpg");  
+  background-size: cover;  
+  background-position: center;  
+}  
 
 ## Description
 
