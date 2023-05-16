@@ -43,6 +43,7 @@ nav a {
   vertical-align: bottom;
   height: 250px;
   background-image: url("./assets/images/sunset2.jpg");
+  background-image: url("../images/sunset2.jpg");
   background-size: cover;
   background-position: center;
 }
