@@ -2,6 +2,8 @@
 
 I will use this website to showcase my work to potential employers.
 
+Please Note: When viewing the live link, one of the images does not display.  I could not figure out how to fix it prior to the assignment's due date and time.  It works when I view the html through VS Code!
+
 ## Description
 
 When a user opens the page they are presented with the my name, and links to sections about me, their work, and how to contact them.
