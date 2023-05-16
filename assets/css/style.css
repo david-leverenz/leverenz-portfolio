@@ -64,13 +64,13 @@ h2 {
 .left-sidebar {
   margin: 2px;
   width: 200px;
-  color:#13293d;
+  color: #13293d;
 }
 
 .right-section {
   display: block;
   flex: 1 0 0;
-  margin: 2px;  
+  margin: 2px;
   padding: 30px;
   background-color: lightgray;
   border-left-color: #13293d;
@@ -95,14 +95,14 @@ h3 {
 
 .work-section {
   /* display: block; */
-  margin: 2px;  
+  margin: 2px;
   padding: 30px;
   background-color: lightgray;
   border-left-color: #13293d;
   border-left-width: 3px;
   border-style: solid;
   width: 80%;
-
+  position: relative;
 }
 
 .work-main {
@@ -112,8 +112,17 @@ h3 {
   border-style: solid;
   border-width: 3px;
   border-color: purple;
+  width: auto;
+  height: 25%;
+  /* background-image: url("../images/image-1.jpg"); */
+  /* background-size: cover;
+  background-position: center; */
+}
+
+.work-main img {
   width: 100%;
-  height: 75%;
+  height: 100%;
+  object-fit: fill;
 }
 
 .work-sub {
@@ -125,21 +134,28 @@ h3 {
   border-width: 3px;
   border-color: green;
   width: 50%;
-  height: 75%;
-  }
+  /* height: 75%; */
+}
 
-  h4 {
-    background-color: lightskyblue;   
-  }
+h4 {
+  background-color: lightskyblue;
+  align-content: center;
+  position: absolute;
+  align-self: flex-end;
+}
 
-  h5 {
-    background-color: lightskyblue; 
-  }
+h5 {
+  background-color: lightskyblue;
+}
 
-  .work-main:hover {
-    background-color: #772014;
-    color: white;
-  }
+h6 {
+  background-color: lightskyblue;
+}
+
+.work-main:hover {
+  background-color: #772014;
+  color: white;
+}
 
 .work-sub:hover {
   background-color: #772014;
@@ -154,10 +170,10 @@ h3 {
 }
 
 .contact-detail ul {
-display: flex;
-justify-content: space-between;
-list-style: none;
-padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  padding: 20px;
 }
 
 .contact-detail a {
