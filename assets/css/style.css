@@ -47,6 +47,10 @@ nav a {
   background-position: center;
 }
 
+h2 {
+  visibility: hidden;
+}
+
 .main-section {
   height: auto;
 }
