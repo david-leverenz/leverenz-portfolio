@@ -1,3 +1,5 @@
+Added picture for a better grade.
+
 # Leverenz Portfolio
 
 I will use this website to showcase my work to potential employers.
